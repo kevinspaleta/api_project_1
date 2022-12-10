@@ -1,6 +1,6 @@
 const express = require ('express'); //Import express and call it as a function to create an express app.
 const app = express(); //The express app finds multiple https end-points that can be accessed on the internet. 
-const stripe = require('stripe')('sk_test_51MDK0xGACzjkGP0mQwoxB3qEt3pAEMpfENvzYiERSvfLOrzBPl0zkFWb95xIm6NZbyeB4KSvXo9WJrNc3aUWGTch00Kg3cVMmr');
+const stripe = require('stripe')('sk_test_KEYHERE');
 //TODO Implement a real database
 // Reverse mapping of stripe to API key
 app.listen(8080, () => console.log('live on http://localhost:8080'));
